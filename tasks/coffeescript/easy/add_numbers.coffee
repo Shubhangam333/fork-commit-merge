@@ -1,6 +1,9 @@
 # CoffeeScript - Easy
 
-# TODO: Create addNumbers function that takes two numbers and returns the sum of those numbers
+#* Function to return the sum of two numbers
+addTwoNumbers = (num1, num2) ->
+  sum = num1 + num2
+  return sum
 
 #! Don't modify the code below!
 result = addNumbers(3, 4)
